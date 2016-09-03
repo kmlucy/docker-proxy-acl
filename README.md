@@ -12,4 +12,4 @@ docker create \
 
 If you do not set options, they default to `-a containers`.
 
-Uses titpetric/docker-proxy-acl
+Based on [titpetric/docker-proxy-acl](https://github.com/titpetric/docker-proxy-acl)
