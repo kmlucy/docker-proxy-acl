@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:alpine
 MAINTAINER Kyle Lucy
 
 ADD files /go/src/app
