@@ -1,7 +1,7 @@
-FROM golang:alpine
-MAINTAINER Kyle Lucy
+FROM golang:1-alpine3.5
+LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
-ADD files /go/src/app
+COPY files /go/src/app
 
 WORKDIR /go/src/app
 
